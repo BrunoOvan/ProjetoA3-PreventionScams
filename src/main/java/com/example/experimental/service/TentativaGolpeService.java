@@ -23,4 +23,12 @@ public class TentativaGolpeService {
     public void excluir(Long id) {
     repository.deleteById(id);
 }
+public TentativaGolpe atualizar(Long id, TentativaGolpe dadosAtualizados) {
+    return repository.findById(id).map(registro -> {
+        registro.setNomePrefeitura(dadosAtualizados.getNomePrefeitura());
+        registro.setTipoGolpe(dadosAtualizados.getTipoGolpe());
+        registro.setDescricao(dadosAtualizados.getDescricao());
+        return repository.save(registro);
+    }).orElseThrow(() -> new RuntimeException("Registro não encontrado!"));
+}
 }

@@ -27,4 +27,8 @@ public class TentativaGolpeController {
 public void deletar(@PathVariable Long id) {
     service.excluir(id);
 }
+@PutMapping("/{id}")
+public TentativaGolpe atualizar(@PathVariable Long id, @RequestBody TentativaGolpe tentativa) {
+    return service.atualizar(id, tentativa);
+}
 }
