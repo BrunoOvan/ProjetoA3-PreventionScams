@@ -23,4 +23,8 @@ public class TentativaGolpeController {
     public TentativaGolpe criar(@RequestBody TentativaGolpe tentativa) {
         return service.registrar(tentativa);
     }
+    @DeleteMapping("/{id}")
+public void deletar(@PathVariable Long id) {
+    service.excluir(id);
+}
 }

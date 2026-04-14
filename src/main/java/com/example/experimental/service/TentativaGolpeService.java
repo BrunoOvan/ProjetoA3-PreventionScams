@@ -20,4 +20,7 @@ public class TentativaGolpeService {
     public TentativaGolpe registrar(TentativaGolpe tentativa) {
         return repository.save(tentativa);
     }
+    public void excluir(Long id) {
+    repository.deleteById(id);
+}
 }
