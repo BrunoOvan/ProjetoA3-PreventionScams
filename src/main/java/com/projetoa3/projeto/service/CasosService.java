@@ -1,29 +1,29 @@
-package com.example.experimental.service;
+package com.projetoa3.projeto.service;
 
-import com.example.experimental.model.TentativaGolpe;
-import com.example.experimental.repository.TentativaGolpeRepository;
+import com.projetoa3.projeto.model.CasosModel;
+import com.projetoa3.projeto.repository.CasosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class TentativaGolpeService {
+public class CasosService {
 
     @Autowired
-    private TentativaGolpeRepository repository;
+    private CasosRepository repository;
 
-    public List<TentativaGolpe> listarTodas() {
+    public List<CasosModel> listarTodas() {
         return repository.findAll();
     }
 
-    public TentativaGolpe registrar(TentativaGolpe tentativa) {
-        return repository.save(tentativa);
+    public CasosModel registrar(CasosModel indices) {
+        return repository.save(indices);
     }
     public void excluir(Long id) {
     repository.deleteById(id);
 }
-public TentativaGolpe atualizar(Long id, TentativaGolpe dadosAtualizados) {
+public CasosModel atualizar(Long id, CasosModel dadosAtualizados) {
     return repository.findById(id).map(registro -> {
         registro.setNomePrefeitura(dadosAtualizados.getNomePrefeitura());
         registro.setTipoGolpe(dadosAtualizados.getTipoGolpe());

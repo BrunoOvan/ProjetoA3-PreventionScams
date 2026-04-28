@@ -1,4 +1,4 @@
-package com.example.experimental.model;
+package com.projetoa3.projeto.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,8 +7,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tb_tentativas")
-public class TentativaGolpe {
+@Table(name = "tb_registros")
+public class CasosModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,7 +19,7 @@ public class TentativaGolpe {
     private String descricao;
 
     // Construtor Vazio (Obrigatório para o Spring)
-    public TentativaGolpe() {
+    public CasosModel() {
     }
 
     // Getters e Setters
