@@ -24,3 +24,4 @@ EXPOSE 8080
 
 # Comando que será executado quando o container ligar
 ENTRYPOINT ["java", "-jar", "app.jar"]
+# Fim
