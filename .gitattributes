@@ -2,3 +2,5 @@
 
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+# Ele ignora arquivos e pastas que não devem ser versionados, como arquivos de configuração local, dependências, arquivos de build, etc.
