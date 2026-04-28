@@ -1,2 +1,4 @@
+#Ele serve para definir como o Git deve tratar os arquivos do seu projeto.
+
 /mvnw text eol=lf
 *.cmd text eol=crlf
