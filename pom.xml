@@ -93,7 +93,7 @@
 			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
-	<!-- Adicionando Novas Dependencias para uso de PostgreeSQL-->
+	<!-- Adicionando Novas Dependencias para uso de PostgreSQL-->
 		<dependency>
  <groupId>org.springframework.boot</groupId>
  <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -103,7 +103,7 @@
  <artifactId>postgresql</artifactId>
  <scope>runtime</scope>
 </dependency>
-<!-- Fim da adição da dependencia postgreesql-->
+<!-- Fim da adição da dependencia PostGreSQL-->
 
 	<build>
 		<plugins>
