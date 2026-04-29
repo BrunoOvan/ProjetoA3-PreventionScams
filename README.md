@@ -5,7 +5,18 @@
 <h1>💻Sistema de Prevenção a Golpes contra Prefeitura</h1>        
 
 
-###  📌  Introdução 
+##  📕  Sobre
+
+O projeto consiste no desenvolvimento de um sistema voltado para a identificação e registro de tentativas de golpes contra prefeituras.
+A proposta é criar uma aplicação que permita aos usuários registrar ocorrências de possíveis fraudes, consultar incidentes já registrados 
+e receber alertas quando características suspeitas forem identificadas.
+
+O sistema também contará com controle de acesso de usuários e armazenamento de histórico de incidentes, 
+permitindo que as informações sejam analisadas posteriormente para auxiliar na prevenção de novos golpes.
+
+
+
+## ⚠Contexto do Problema
 
 As administrações públicas municipais tem sido alvos frequentes de golpistas especialistas em engenharia social.
 O golpe mais critico mapeado consiste em criminosos entrarem em contate com as prefeituras se passando por autoridades
@@ -13,11 +24,9 @@ ou servidores do Banco Central do Brasil.
 Os golpistas alegam a existência de supostos débitos pendentes e avisam que irão bloquear de imediato as suas contas 
 bancárias do municipio caso não seja feito um pix ou deposito de imediato.
 
-Este sistema foi desenvolvido com o proposito de modernizar a segurança cibernética das prefeituras, 
-trocando a lentidão do trabalho manual pela inteligência e velocidade de um sistema distribuído, 
-evitando perdas milionárias aos cofres públicos.
 
-## ⚙️ Ferramentas e Linguagens usados
+
+## 🔨 Ferramentas e Linguagens usados 💻
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="25"/> Visual Studio Code
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30"/> Java 
@@ -26,7 +35,7 @@ evitando perdas milionárias aos cofres públicos.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="25"/> PostMan
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30"/> PostGreSQL 
 
-##  🚀 Progresso do Projeto
+
 
 
 
